@@ -17,6 +17,8 @@ i used in this project very helpful packages
 The app fetches the data from the API and convert it to useful data in the application
 and shows the data as following:
 
+![](https://github.com/saadghazal/Flutter_Mexican_Food_Recipe/blob/main/mexican_guy.gif)
+
 
 
 
