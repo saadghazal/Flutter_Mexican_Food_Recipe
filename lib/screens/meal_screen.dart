@@ -18,24 +18,6 @@ class _MealScreenState extends State<MealScreen> {
   bool descriptionReadMore = false;
   bool ingredientsReadMore = false;
 
-  final List<String> ingredients = [
-    "500g dried pinto beans",
-    "1 tsp dried oregano",
-    "1 tsp ground cumin",
-    "1 tsp fine sea salt",
-    "2 tbsp olive oil or lard",
-    "1 large onion, finely chopped",
-    "1 jalapeno, finely chopped",
-    "3 garlic cloves, chopped",
-    "Diced tomatoes, pickled jalapenos and fresh coriander to serve",
-    "Pressure cooker",
-  ];
-
-  final List<String> steps = [
-    'inse the beans then put them in the pressure cooker with 1.6 litres water. Stir in the oregano, cumin and salt. Add the lid and bring to high pressure then cook for 30 minutes. Allow the steam to release naturally then open and check if they’re done (they should be very tender). Return to high pressure and cook for another 5-10 minutes if needed.',
-    'Once the beans are cooked, drain them, reserving the cooking water in a jug. Return the pressure cooker to a medium heat (or set to the sauté function if electric), add the oil or lard then cook the onion, jalapeno and garlic with a pinch of salt for about 5 minutes, until softened. Stir in the drained beans then cook for a few minutes, adding a little of their cooking water while mashing with a potato masher until you reach the desired consistency (if you prefer them smoother you can whizz with a hand blender then continue cooking). Season to taste then serve topped with tomatoes, pickled jalapenos and coriander.',
-  ];
-
   @override
   Widget build(BuildContext context) {
     final bottom = MediaQuery.of(context).viewPadding.bottom;
